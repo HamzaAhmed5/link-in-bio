@@ -1,0 +1,131 @@
+:root {
+    --green: #7DADA7;
+    --peach: #f8c6b6;
+    --background: #FDF6EB;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    padding: 80px 50px;
+    background-color: var(--background);
+}
+.section-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.profile-header-title p{
+    font-size: 27px;
+    margin: 0;
+    color: var(--green);
+}
+.name{
+    color: var(--green);
+}
+.profile-header-ig {
+    color:white;
+    background: var(--green);
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("images/I.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left 0px;
+    border: 3px solid var(--green);
+    margin: 0 10px;
+}
+
+.section-links {
+    padding: 20;
+}
+
+.link {
+    background: var(--green);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+
+}
+
+.link:hover {
+    background-color: var(--peach);
+}
+.link-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 3px;
+}
+.link-description{
+    text-align: center;
+   font-weight: 600px;
+   font-family: sans-serif;
+}
+
+.link-title + p{
+    margin: 0;
+    margin-top: 10px;
+}
+.new-link:after{
+    position: absolute;
+    content: "New";
+    background: var(--peach);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    top: 0;
+}
+.social-title {
+    color: var(--green);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+.section
+.social-media-icons i{
+    margin: 0 10px;
+    font-size: 20px;
+    color: var(--green);
+}
+.social-media-icons i:nth-child(1){
+    margin-left: 0;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    background: red;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--green);
+}
+.link a:hover {
+    background: var(--peach);
+}
